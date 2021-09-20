@@ -1,0 +1,27 @@
+.page {
+  padding: 30px;
+}
+
+.options {
+  background: var(--color-grey-lighter);
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+
+.search,
+.select {
+  min-width: var(--search-width);
+  width: calc(100% / 3 - 100px);
+}
+
+.countries {
+  display: grid;
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
+}
+
+.country {
+  min-width: 300px;
+}

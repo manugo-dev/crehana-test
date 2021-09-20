@@ -1,0 +1,63 @@
+.react-select-container .react-select {
+  &__placeholder {
+    color: var(--color-grey);
+  }
+
+  &__control {
+    border: 1px solid var(--color-grey-light);
+
+    &--is-focused,
+    &:hover {
+      border-color: var(--color-primary-main);
+      box-shadow: none;
+    }
+  }
+
+  &__multi-value {
+    background: var(--color-primary-main);
+    border: 1px solid var(--color-primary-main);
+    color: var(--color-white);
+
+    &__label {
+      color: var(--color-white);
+      padding-right: 5px;
+    }
+
+    &__remove {
+      background: var(--color-primary-dark);
+      cursor: pointer;
+    }
+  }
+
+  &__option {
+    cursor: pointer;
+
+    &--is-selected {
+      background: var(--color-primary-dark);
+      color: var(--color-white);
+    }
+
+    &:hover,
+    &--is-focused {
+      background-color: var(--color-primary-main);
+      color: var(--color-white);
+    }
+  }
+}
+
+.react-select-container.error .react-select {
+  &__placeholder {
+    color: var(--color-error);
+  }
+
+  &__control {
+    border: 1px solid var(--color-error);
+    box-shadow: none;
+
+    &--is-focused,
+    &:hover {
+      border-color: var(--color-primary-main);
+      box-shadow: none;
+    }
+  }
+}

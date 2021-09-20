@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Loading It render without errors 1`] = `
+<div>
+  <div
+    class="ripple"
+  >
+    <div />
+    <div />
+  </div>
+</div>
+`;

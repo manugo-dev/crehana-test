@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial:wght@300;400;500;900&display=swap');
+@import 'layout';
+@import 'margins';
+@import 'variables';
+@import 'colors';
+@import 'typography';
+@import 'button';
+@import 'select';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Questrial, Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,15 @@
+.header {
+  background: var(--color-primary-main);
+  box-shadow: var(--box-shadow);
+  height: var(--header-height);
+  padding: 10px;
+}
+
+.logo {
+  fill: var(--color-white);
+  height: var(--logo-height);
+}
+
+.title {
+  text-decoration: none;
+}
