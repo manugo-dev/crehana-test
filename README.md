@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crehana Frontend Test
+## Awesome Frontend Technical Test
+#### Available online at [https://crehana-test.web.app/](https://crehana-test.web.app/)
 
 ## Available Scripts
 
